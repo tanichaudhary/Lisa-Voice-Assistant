@@ -2,7 +2,4 @@ pyttsx3
 SpeechRecognition
 wikipedia
 soundfile
-flask
-requests
-pyaudio
-threading
+
