@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "lisa.code.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "lisa.code.py" }
+  ]
+}
